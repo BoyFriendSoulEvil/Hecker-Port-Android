@@ -9,7 +9,7 @@
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "GF Dancing Beat"
+			"name": "HeckerIdle"
 		},
 		{
 			"offsets": [
@@ -20,7 +20,7 @@
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "GF Up Note"
+			"name": "HeckerUp"
 		},
 		{
 			"offsets": [
@@ -31,18 +31,7 @@
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "GF Down Note"
-		},
-		{
-			"offsets": [
-				-281,
-				158
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "GF Right Note"
+			"name": "HeckerDown"
 		},
 		{
 			"offsets": [
@@ -53,26 +42,48 @@
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "GF left note"
+			"name": "HeckerLeft"
+		},
+		{
+			"offsets": [
+				-281,
+				158
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "HeckerRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-281,
+				158
+			],
+			"anim": "he",
+			"fps": 24,
+			"name": "HeckerScene",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/GF_assets",
+	"image": "characters/heckercall_assets",
 	"position": [
-		0,
-		320
+		129,
+		354
 	],
-	"healthicon": "gf",
+	"healthicon": "hecker",
 	"flip_x": false,
 	"healthbar_colors": [
-		165,
-		0,
-		77
+		243,
+		135,
+		45
 	],
 	"camera_position": [
-		390,
-		30
+		520,
+		-10
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.3329048843
 }
